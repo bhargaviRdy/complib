@@ -1,0 +1,80 @@
+/* text over media */
+
+.card2 {
+  background: white;
+  width: 350px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+.card2 .card--image {
+  border-radius: 5px 5px 0 0;
+  height: 200px;
+}
+
+.card2 .card--title {
+  color: white;
+  position: absolute;
+  top: 130px;
+
+  padding-left: 12px;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+.card2 .card--author {
+  color: white;
+  position: absolute;
+  top: 170px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 5px 0 5px 12px;
+}
+.card2 .card--description {
+  padding-left: 12px;
+  color: #0000008a;
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 1.3rem;
+}
+.card2 .card--links {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px;
+}
+
+.card2 button {
+  color: #6200ee;
+  font-weight: 600;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+.card2 a {
+  color: #00000099;
+}
+.card2 a:hover {
+  background: #f7f7f7;
+}
+
+.card2 button:hover {
+  background: #f7f7f7;
+}
+
+.card button {
+  color: #6200ee;
+  font-weight: 600;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+.card a {
+  color: #00000099;
+}

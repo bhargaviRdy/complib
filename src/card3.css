@@ -1,0 +1,55 @@
+.card3 {
+  background: white;
+  width: 350px;
+  /* height: 600px; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  /* border: 1px solid grey; */
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+.card3 .card--image {
+  /* border-radius: 5px 5px 0 0; */
+  height: 200px;
+}
+
+.card3 .card--title {
+  order: -2;
+  padding-left: 12px;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+.card3 .card--author {
+  order: -1;
+  font-size: 14px;
+  color: #0000008a;
+  font-weight: bold;
+  margin: 5px 0 16px 12px;
+}
+.card3 .card--description {
+  padding-left: 12px;
+  color: #0000008a;
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 1.3rem;
+}
+.card3 .card--links {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.card3 button {
+  color: #6200ee;
+  font-weight: 600;
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+}
+.card3 a {
+  color: #00000099;
+}

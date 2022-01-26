@@ -1,0 +1,48 @@
+/* with only cions */
+.card5 {
+  background: white;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+.card5 .card--image {
+  height: 200px;
+}
+
+.card5 .card--title {
+  padding-left: 12px;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+.card5 .card--author {
+  font-size: 14px;
+  color: #0000008a;
+  font-weight: bold;
+  margin: 5px 0 16px 12px;
+}
+.card5 .card--description {
+  padding-left: 12px;
+  color: #0000008a;
+  margin: 10px 0;
+  font-size: 14px;
+  line-height: 1.3rem;
+}
+.card5 .card--links {
+  padding: 8px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  margin: 0 10px;
+}
+
+.card5 button {
+  display: none;
+}
+.card5 a {
+  border-radius: 50%;
+  color: #00000099;
+}
